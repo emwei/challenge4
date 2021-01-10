@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<title>Shehacks</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/beans.jpg");
+    min-height: 75%;
+  }
+</style>
+
+
+
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+    class="w3-bar-item w3-button">Close Menu</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <a href="reviews.html" class="w3-bar-item w3-button">Reviews</a>
+  </nav>
+  
+  <!-- Top menu -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <!-- <div class="w3-center w3-padding-16">KEM Cafe Reviews</div> -->
+      <a href="index.html" class="w3-center w3-padding-16 w3-button">KEM Cafe Reviews</a>
+    </div>
+  </div>
+
+<!-- Header with image -->
+<!-- <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-middle w3-center">
+      <span class="w3-text-white" style="font-size:90px">KEM<br>Cafe</span>
+    </div>
+    </div>
+  </header> -->
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+    <h2>About Us</h2>
+    <p>The team at KEM Cafe consists of: </p>
+    
+    <div class="w3-row"><br>
+    
+    <div class="w3-quarter">
+      <img src="./images/profile.png" alt="pfp" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h3>Kristen Phan</h3>
+      <p>Foodie/Founder</p>
+    </div>
+    
+    <div class="w3-quarter">
+      <img src="./images/profile.png" alt="pfp" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h3>Marina Liu</h3>
+      <p>Foodie/Web Design</p>
+    </div>
+    
+    <div class="w3-quarter">
+      <img src="./images/profile.png" alt="pfp" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h3>Emily Wei</h3>
+      <p>Foodie/Marketing & Socials</p>
+    </div>
+
+    <div class="w3-quarter">
+        <img src="./images/profile.png" alt="pfp" style="width:45%" class="w3-circle w3-hover-opacity">
+        <h3>Greeshma Rosario</h3>
+        <p>Foodie/Support</p>
+      </div>
+
+
+<!-- Top menu -->
+<!-- <div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">My Food</div>
+  </div>
+</div> -->
+  
+<!-- !PAGE CONTENT! -->
+<!-- <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px"> -->
+
+  <!-- First Photo Grid
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="./images/cafe1.jpg" alt="cafe" style="width:100%">
+      <h3>Cafe Waterloo</h3>
+      <p>Yum!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./images/cafe2.jpg" alt="cafe" style="width:100%">
+      <h3>Cafe UWO</h3>
+      <p>Yum!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./images/cafe3.jpg" alt="cafe" style="width:100%">
+      <h3>Little Apple</h3>
+      <p>Yum!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./images/cafe4.jpg" alt="cafe" style="width:100%">
+      <h3>London Fog</h3>
+      <p>Yum!</p>
+    </div>
+
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+        <div class="w3-quarter">
+            <img src="./images/fourStar.png" alt="stars" style="width:60%">
+          </div>
+          <div class="w3-quarter">
+            <img src="./images/fiveStars.png" alt="stars" style="width:70%">
+          </div>
+          <div class="w3-quarter">
+            <img src="./images/fiveStars.png" alt="stars" style="width:70%">
+          </div>
+          <div class="w3-quarter">
+            <img src="./images/fourStar.png" alt="stars" style="width:60%">
+          </div>
+    </div> -->
+  
+  <!-- Second Photo Grid--  >
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Le French</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
